@@ -20,11 +20,20 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
-    // 登录
-    wx.login({
-      success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionIdfun
-        this.login(res.code);
+    wx.checkSession({
+      success: () => {
+        // do nothing
+      },
+
+
+      fail: () => {
+        // 登录
+        wx.login({
+          success: res => {
+            // 发送 res.code 到后台换取 openId, sessionKey, unionIdfun
+            this.login(res.code);
+          }
+        })
       }
     })
     // 获取用户信息
