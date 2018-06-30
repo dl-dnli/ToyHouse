@@ -9,7 +9,8 @@
     "pages/subs_option_age/subs_option_age",
     "pages/subs_option_box/subs_option_box",
     "pages/subs_option_model/subs_option_model",
-    "pages/new_address/new_address"
+    "pages/new_address/new_address",
+    "pages/history/history"
   ],
   "window": {
     "backgroundTextStyle": "light",

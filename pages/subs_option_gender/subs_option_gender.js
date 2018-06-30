@@ -14,6 +14,21 @@ Page({
   onLoad: function (options) {
   
   },
+  onGenderGirl: function (e) {
+    // gender = "girl",
+      wx.navigateTo({
+        url: `/pages/subs_option_age/subs_option_age`,
+      })
+
+  },
+
+  onGenderBoy: function (e) {
+    // gender = "girl",
+    wx.navigateTo({
+        url: `/pages/subs_option_age/subs_option_age`,
+      })
+
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

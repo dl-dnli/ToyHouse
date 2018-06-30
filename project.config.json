@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 5,
 			"list": [
 				{
 					"id": -1,
@@ -61,6 +61,24 @@
 					"name": "Add New Address",
 					"pathName": "pages/new_address/new_address",
 					"query": ""
+        },
+        {
+          "id": -1,
+					"name": "box",
+					"pathName": "pages/subs_option_box/subs_option_box",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "history",
+					"pathName": "pages/history/history",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "history",
+					"pathName": "pages/profile/profile",
+          "query": ""
 				}
 			]
 		}

@@ -1,2 +1,6 @@
 <!--pages/subs_option_box/subs_option_box.wxml-->
-<text>pages/subs_option_box/subs_option_box.wxml</text>
+<view class= 'h3'>Choose A Box</view>
+<view class = "image-row">
+<image class="image" src='/image/science_box.jpg'></image>
+<image class="image" src='/image/science_box.jpg'></image>
+</view>
