@@ -8,7 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    address: null
   },
 
   /**
@@ -26,11 +26,24 @@ Page({
       success: (res) => {
         // console.log(res);
 
-        this.setData({
-          address: res.data.data[0]
-          // address: [][0]
-        });
+        if (res.data.data.length > 0) {
+          this.setData({
+            address: res.data.data[0]
+          });
+        }
       }
+    });
+  },
+
+  addNewAddress() {
+    wx.navigateTo({
+      url: '../new_address/new_address',
+    });
+  },
+
+  listAddresses() {
+    wx.navigateTo({
+      url: '../list_addresses/list_addresses',
     });
   },
 

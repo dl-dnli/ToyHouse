@@ -1,5 +1,6 @@
 <!--pages/checkout/checkout.wxml-->
-<view class="address" wx:if="{{ address }}">
+
+<view bindtap='listAddresses' class="address" wx:if="{{ address }}">
   <text class="recipient">{{ address.recipient }}</text>
 
   <view class="detail">
@@ -12,7 +13,7 @@
   </view>
 </view>
 
-<view class="new-address" wx:else>
+<view class="new-address" bindtap='addNewAddress' wx:else>
   <text>Add New Address</text>
 </view>
 
