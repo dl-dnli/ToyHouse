@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/toys/toys",
     "pages/logs/logs",
     "pages/design/design",
     "pages/profile/profile",

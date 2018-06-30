@@ -1,29 +1,30 @@
-// pages/subs_option_age/subs_option_age.js
+const apiClient = require('../../utils/apiClient.js');
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
-  },
-
-  chooseAge: function(e) {
-    var tag = e.currentTarget.id
-    
-    wx.navigateTo({
-      url:  `/pages/toys/toys?tags=${tag}`
-    })
+    toys: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var ageTag = options.tags
+    apiClient.get({
+      path: `/toys?tags=${ageTag}`,
+      success: (res) => {
+        if (res.data.status == 'ok') {
+          this.toys = res.data.data
+        }
+        console.log(res.data.data)
+      }
+    })
   },
  
-
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
