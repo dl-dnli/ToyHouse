@@ -69,3 +69,15 @@
   justify-content: center;
   color: white;
 }
+
+.new-address {
+  font-family: 'Lato';
+}
+
+.toy-detail{
+  font-family: 'Lato';
+}
+
+.summary {
+  font-family: 'Lato';
+}

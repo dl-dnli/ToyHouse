@@ -1,5 +1,4 @@
 <!--pages/checkout/checkout.wxml-->
-
 <view class="address" wx:if="{{ address }}">
   <text class="recipient">{{ address.recipient }}</text>
 
@@ -13,7 +12,7 @@
   </view>
 </view>
 
-<view wx:else>
+<view class="new-address" wx:else>
   <text>Add New Address</text>
 </view>
 
