@@ -1,12 +1,40 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/design/design",
+    "pages/profile/profile"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "ToyHouse",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "selectedColor": "white",
+    "borderColor": "white",
+    "color": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/homepage.png",
+        "selectedIconPath": "image/homepage.png",
+        "text": "Homepage"
+      },
+      {
+        "pagePath": "pages/design/design",
+        "iconPath": "image/design.png",
+        "selectedIconPath": "image/design.png",
+        "text": "Design"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "image/me.png",
+        "selectedIconPath": "image/me.png",
+        "text": "Me"
+      }
+    ]
   }
 }
