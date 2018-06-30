@@ -1,2 +1,16 @@
 <!--pages/design/design.wxml-->
-<text>pages/design/design.wxml</text>
+<text>List of Toys</text>
+<view class = "bigparent">
+<view class = "boxparent">
+  <image class= "box" src= "/image/house.jpg" bindtap='clickToPage'>
+  </image>
+   <image class = "box" src= "/image/house.jpg">
+  </image>
+</view>
+<view class = "boxparent">
+  <image class = "box" src= "/image/house.jpg">
+  </image>
+   <image class = "box" src= "/image/house.jpg">
+  </image>
+</view>
+</view>
