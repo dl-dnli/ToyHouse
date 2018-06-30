@@ -19,3 +19,29 @@
 .usermotto {
   margin-top: 200px;
 }
+/* 
+.banner {
+  background-color: #FDDCCD;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+}
+
+.banner-image {
+  height: 30vh;
+}
+
+.step-section {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 50rpx;
+}
+
+.step-pic {
+  background: #f1f1f1;
+  padding: 50rpx;
+  border-radius: 50%;  
+} */
