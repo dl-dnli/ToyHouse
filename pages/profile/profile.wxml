@@ -1,2 +1,48 @@
-<!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<!--index.wxml-->
+<view class="container">
+   <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="usenfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> 
+
+  <!-- <view class="banner">
+    <view class="banner-image" style="background-image: url('../../image/banner-image1.jpeg');"></view>
+  </view>
+  <view class="steps">
+    <view class="step-section">
+      <view class="step step-num">01</view>
+      <view class="step step-pic"></view>
+      <view class="step step-details">XXX</view>
+    </view>
+  </view> -->
+
+
+  <view class="age-group">
+    <view class="card top-left">
+      <view class="card-description">
+        <image src='/image/duck.svg' class="age-pic"></image>
+        <view class="age">Address</view>
+      </view>
+    </view>
+    <view class="card top-right">
+      <view class="card-description">
+        <image src='/image/kite.svg' class="age-pic"></image>
+        <view class="age">My Susbscription</view>
+      </view>
+    </view>
+    <view class="card bottom-left">
+      <view class="card-description">
+        <image src='/image/robot.svg' class="age-pic"></image>
+        <view class="age">My design</view>
+      </view>
+    </view>
+   
+  </view>
+
+</view>
