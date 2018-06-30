@@ -44,10 +44,15 @@
       <image src="/image/recycle.svg" class="steps-pic"></image>
       <view class="step-description">Keep what you like</view>
     </view>
+
+    <view class="steps-details">
+      <image src="/image/present.svg" class="steps-pic"></image>
+      <view class="step-description">More surprises!</view>
+    </view>
   </view>
    <view class="submit-btn" bindtap='register'>
   <!-- <image id="submit-img" src="/image/submit.png"></image> -->
-    <text class="submit-text">Join Us Now!!</text>
+    <text class="submit-text">Join Us Now</text>
  </view>
 </view>
   <!-- <image src="/image/placeholder.png"></image> -->
