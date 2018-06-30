@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
+   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
@@ -9,5 +9,15 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+  </view> 
+  <!-- <view class="banner">
+    <view class="banner-image" style="background-image: url('../../image/banner-image1.jpeg');"></view>
   </view>
+  <view class="steps">
+    <view class="step-section">
+      <view class="step step-num">01</view>
+      <view class="step step-pic"></view>
+      <view class="step step-details">XXX</view>
+    </view>
+  </view> -->
 </view>
