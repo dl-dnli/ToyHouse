@@ -14,9 +14,13 @@
 }
 
 .new-address {
-  height: 80rpx;
   display: flex;
   align-items: center;
-  padding: 0 50rpx;
+  justify-content: center;
+  padding: 20rpx 40rpx;
+  font-family: 'Lato';
+  text-align: center;
+  background-color: #F5C253;
+  width: 400rpx;
 }
 

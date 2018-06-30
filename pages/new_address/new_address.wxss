@@ -34,6 +34,7 @@
 
 .label {
   width: 25%;
+  font-family: 'Lato';
 }
 
 .error {
@@ -42,4 +43,24 @@
 
 button {
   margin-top: 80rpx;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20rpx 40rpx;
+  font-family: 'Lato';
+  text-align: center;
+  background-color: #F5C253;
+  width: 400rpx;
+  border: none !important;
+  padding-left: none !important;
+  padding-right: none !important;
+}
+
+.button {
+  border: none !important;
+  padding-left: none !important;
+  padding-right: none !important;
 }

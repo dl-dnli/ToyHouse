@@ -13,7 +13,7 @@
   </view>
 </view>
 
-<view bindtap='addNewAddress' wx:else>
+<view class="new-address" bindtap='addNewAddress' wx:else>
   <text>Add New Address</text>
 </view>
 
