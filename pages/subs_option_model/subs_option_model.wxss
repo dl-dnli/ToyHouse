@@ -1,1 +1,45 @@
 /* pages/subs_option_model/subs_option_model.wxss */
+
+.container {
+  background: #F8F8F8;
+}
+
+.pricing-title {
+  font-family: 'Lato';
+  font-size: 50rpx;
+  margin: 50rpx;
+}
+
+.pricing-card {
+  height: 275rpx;
+  width: 350rpx;
+  /* background-size: cover;
+  background-position: center; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rpx;
+  margin-bottom: 40rpx;
+  position: relative;
+}
+
+.pricing-description {
+  justify-content: center;
+  text-align: center;
+  height: 275rpx;
+  width: 350rpx;
+  border-radius: 20rpx;
+}
+
+.pricing-details {
+  font-family: 'Lato';
+}
+
+.duration {
+  background-color: #F5C253;
+  width: 350rpx;
+  height: 200rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}

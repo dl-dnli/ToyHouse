@@ -1,2 +1,24 @@
 <!--pages/subs_option_model/subs_option_model.wxml-->
-<text>pages/subs_option_model/subs_option_model.wxml</text>
+<view class="container">
+  <view class="pricing-title">How Long Do You Want It?</view>
+  <view class="pricing-group">
+    <view class="pricing-card">
+      <view class="pricing-description">
+        <view class="pricing-details duration">3 Months</view>
+        <view class="pricing-details price">¥ 199</view>
+      </view>
+    </view>
+    <view class="pricing-card">
+      <view class="pricing-description">
+        <view class="pricing-details duration">6 Months</view>
+        <view class="pricing-details price">¥ 379</view>
+      </view>
+    </view>
+    <view class="pricing-card">
+      <view class="pricing-description">
+        <view class="pricing-details duration">1 Year</view>
+        <view class="pricing-details price">¥ 599</view>
+      </view>
+    </view>
+  </view>
+</view>
