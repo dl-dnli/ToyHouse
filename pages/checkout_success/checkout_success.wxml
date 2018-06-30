@@ -1,0 +1,28 @@
+<!--pages/checkout_success/checkout_success.wxml-->
+
+<view class="success">
+  <image src="/assets/images/checked.png"></image>
+
+  <view>
+    <text>Subscribed!</text>
+    <text>Thank you!</text>
+  </view>
+</view>
+
+<view class="toy">
+  <image src="/assets/images/artbox.png"></image>
+
+  <view class="toy-detail">
+    <text>Art Box</text>
+    <text>{{ months }} Month Prepay</text>
+    <text>$ {{ total }}.00</text>
+  </view>
+</view>
+
+<view class="delivery">
+  <text>Your first box is expected to arrive by July 7, 2018</text>
+  <button>Track Order</button>
+</view>
+
+
+

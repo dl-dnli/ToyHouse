@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -90,6 +90,12 @@
           "id": -1,
 					"name": "checkout",
 					"pathName": "pages/checkout/checkout",
+					"query": "toy_id=50&months=3&total=199"
+				},
+				{
+					"id": 6,
+					"name": "checkout success",
+					"pathName": "pages/checkout_success/checkout_success",
 					"query": "toy_id=50&months=3&total=199"
 				}
 			]

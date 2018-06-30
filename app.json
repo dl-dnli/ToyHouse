@@ -11,7 +11,8 @@
     "pages/subs_option_model/subs_option_model",
     "pages/new_address/new_address",
     "pages/history/history",
-    "pages/checkout/checkout"
+    "pages/checkout/checkout",
+    "pages/checkout_success/checkout_success"
   ],
   "window": {
     "backgroundTextStyle": "light",
