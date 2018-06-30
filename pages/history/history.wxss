@@ -1,0 +1,48 @@
+/* pages/history/history.wxss */
+.h3{
+font-size: 40rpx;
+text-align: center;
+font-family: "Lato";
+}
+
+.button{
+  margin-top: 20rpx;
+  display: flex;
+}
+
+.button1{
+  font-size: 35rpx;
+  font-family: "Lato";
+  padding: 20rpx 131rpx 20rpx 130rpx ;
+  background-color: #E8E8E8;
+  border-top-right-radius: 15;
+}
+.button2{
+  font-size: 35rpx;
+  font-family: "Lato";
+  padding: 20rpx 130rpx 20rpx 131rpx ;
+  background-color: grey;
+  border-top-right-radius: 15;
+}
+
+.list{
+  margin: 20px 0px 20px 0px;
+  padding: 20px 20px 20px 20px;
+  background-color: #E8E8E8;
+  display: flex;
+
+}
+
+.image{
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.text{
+  font-family: "Lato";
+  width: 200rpx;
+  height: 150rpx;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  text-align: center;
+}

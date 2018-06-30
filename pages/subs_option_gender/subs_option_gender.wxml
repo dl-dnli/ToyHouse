@@ -3,9 +3,9 @@
   <view class="gender-title"> SELECT
   </view>
   <view class="gender-circle">
-    <image src='/image/girl.svg' class="gender-pic" bindtap='onGenderChosen'></image>
+    <image src='/image/girl.svg' class="gender-pic" bindtap='onGenderGirl'></image>
   </view>
   <view class="gender-circle">
-    <image src='/image/boy.svg' class="gender-pic" bindtap='onGenderChosen'></image>
+    <image src='/image/boy.svg' class="gender-pic" bindtap='onGenderBoy'></image>
   </view>
 </view>

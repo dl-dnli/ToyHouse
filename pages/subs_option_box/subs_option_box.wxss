@@ -1,1 +1,15 @@
 /* pages/subs_option_box/subs_option_box.wxss */
+.image-row{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.image{
+margin: 30rpx
+}
+
+.h3{
+font-size: 40rpx;
+text-align: center;
+font-family: "Lato";
+}

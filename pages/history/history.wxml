@@ -1,0 +1,26 @@
+<view class="h3">My History Subscription</view>
+
+<view class= "button">
+<view class= "button1">Current</view>
+<view class= "button2">Expired</view>
+</view>
+
+<view class= "list">
+
+  <image class= "image" src='/image/art.jpg'></image>
+  <view class = "text">
+    Art Box
+  </view >
+  <view class = "text">
+    3 months prepaid
+  </view>
+  <view class = "text">
+    $199
+  </view>
+</view>
+<!-- <view class="rental" bindtap="showrental" wx:for="{{rentals}}" wx:for-item="rental" wx:key="rental.id" data-rental="{{rental}}">
+  <view class="card">
+   <view class = "text"> {{rental.start}}, {{rental.duration}} min, {{rental.duration / 10}} RMB </view> 
+    <view class = "textaddress"> {{rental.address}} </view>
+  </view>
+</view> -->
