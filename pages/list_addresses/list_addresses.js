@@ -7,23 +7,18 @@ Page({
    * 页面的初始数据
    */
   data: {
+  },
 
+  addNewAddress() {
+    wx.navigateTo({
+      url: '../new_address/new_address',
+    });
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    apiClient.get({
-      path: '/addresses',
-      success: (res) => {
-        console.log(res)
-
-        this.setData({
-          addresses: res.data.data
-        })
-      }
-    });
   },
 
   /**
@@ -37,7 +32,16 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
+    apiClient.get({
+      path: '/addresses',
+      success: (res) => {
+        console.log(res);
 
+        this.setData({
+          addresses: res.data.data
+        });
+      }
+    });
   },
 
   /**

@@ -1,0 +1,45 @@
+/* pages/new_address/new_address.wxss */
+
+.wrapper {
+  padding: 0;
+  font-size: 32rpx;
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  height: 120rpx;
+  align-items: center;
+  border-bottom: 2rpx solid #DDDDDD;
+  margin-left: 30rpx;
+  padding-right: 20rpx;
+}
+
+.input > .main {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.input > image {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.input-placeholder {
+  color: #CCCCCC;
+}
+
+.label {
+  width: 25%;
+}
+
+.error {
+  color: red;
+}
+
+button {
+  margin-top: 80rpx;
+}

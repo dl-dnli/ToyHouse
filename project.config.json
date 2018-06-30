@@ -53,7 +53,13 @@
 				{
 					"id": -1,
 					"name": "age",
-					"pathName": "pages/subs_option_model/subs_option_model",
+          "pathName": "pages/subs_option_model/subs_option_model",
+          "query": ""
+        },
+        {
+          "id": -1,
+					"name": "Add New Address",
+					"pathName": "pages/new_address/new_address",
 					"query": ""
 				}
 			]
