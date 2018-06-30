@@ -10,7 +10,8 @@
     "pages/subs_option_box/subs_option_box",
     "pages/subs_option_model/subs_option_model",
     "pages/new_address/new_address",
-    "pages/history/history"
+    "pages/history/history",
+    "pages/description/description"
   ],
   "window": {
     "backgroundTextStyle": "light",
