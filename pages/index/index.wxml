@@ -1,4 +1,4 @@
-<!--index.wxml-->
+<!-- index.wxml
 <view class="container">
    <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
@@ -20,4 +20,19 @@
       <view class="step step-details">XXX</view>
     </view>
   </view> -->
+<!-- </view> --> 
+<view class="logo">
+<image src="/image/logo.png"></image>
 </view>
+<view class="title">
+<text>How We Work?</text>
+</view>
+<view class= "logo">
+<image src="/image/placeholder.png"></image>
+</view>
+
+ <view class="submit-btn" bindtap='register'>
+  <!-- <image id="submit-img" src="/image/submit.png"></image> -->
+  <text id="submit-text">Join Us Now !!!</text>
+  </view>
+

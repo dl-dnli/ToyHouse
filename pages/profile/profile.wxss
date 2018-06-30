@@ -1,1 +1,86 @@
-/* pages/profile/profile.wxss */
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+/* 
+.banner {
+  background-color: #FDDCCD;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+}
+
+.banner-image {
+  height: 30vh;
+}
+
+.step-section {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 50rpx;
+}
+
+.step-pic {
+  background: #f1f1f1;
+  padding: 50rpx;
+  border-radius: 50%;  
+} */
+
+/**index.wxss**/
+.age-group {
+  display: flex;
+  /* position: relative; */
+  flex-direction: column;
+  /* width: 600rpx;
+  height: 600rpx; */
+} 
+
+.card {
+  height: 250rpx;
+  width: 250rpx;
+  /* background-size: cover;
+  background-position: center; */
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rpx;
+  margin: 20rpx;
+}
+
+.card-description {
+  font-family: 'Lato';
+  font-weight: bold;
+  text-align: center;
+}
+
+.age-pic {
+  width: 150rpx;
+  height: 100rpx;
+  margin: 20rpx;
+}
+
+.age {
+  color: #404040;
+  font-size: 30rpx;
+}
