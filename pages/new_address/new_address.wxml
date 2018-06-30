@@ -1,0 +1,28 @@
+<!--pages/new_address/new_address.wxml-->
+
+<view class="wrapper">
+  <import src="/templates/validated-input.wxml" />
+
+  <view class="input">
+    <text class="label">Name</text>
+    <template is="validated-input" data="{{ errors, key: 'name', value: userInput.name }}" />
+  </view>
+
+  <view class="input">
+    <text class="label">Mobile</text>
+    <template is="validated-input" data="{{ errors, key: 'mobile', value: userInput.mobile }}" />
+  </view>
+
+  <view class="input">
+    <text class="label">Region</text>
+    <template is="validated-picker" data="{{ errors, key: 'region', mode: 'region', value: userInput.region }}" />
+    <image src="/assets/images/chevron-right.png"></image>
+  </view>
+
+  <view class="input">
+    <text class="label">Street Address</text>
+    <template is="validated-input" data="{{ errors, key: 'detail', value: userInput.detail }}" />
+  </view>
+
+  <button bindtap='submit'>Save</button>
+</view>

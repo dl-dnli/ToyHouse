@@ -12,6 +12,6 @@
   </view>
 </view>
 
-<view class="new-address">
+<view class="new-address" bindtap='addNewAddress'>
   <text>添加新地址</text>
 </view>

@@ -9,6 +9,12 @@ Page({
   data: {
   },
 
+  addNewAddress() {
+    wx.navigateTo({
+      url: '../new_address/new_address',
+    });
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -16,11 +22,11 @@ Page({
     apiClient.get({
       path: '/addresses',
       success: (res) => {
-        console.log(res)
+        console.log(res);
 
         this.setData({
           addresses: res.data.data
-        })
+        });
       }
     });
   },

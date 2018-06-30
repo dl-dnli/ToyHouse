@@ -1,0 +1,9 @@
+<template name="validated-input">
+  <input bindinput='{{ key }}Changed' class='main {{ errors[key] ? "error" : "" }}' type='{{ inputType ? inputType : "text" }}' placeholder='{{ errors[key] ? errors[key] : "Please Enter" }}' placeholder-class='input-placeholder {{ errors[key] ? "error" : "" }}' value="{{ value }}"></input>
+</template>
+
+<template name="validated-picker">
+  <picker bindchange='{{ key }}Changed' mode="{{ mode }}" class='main'>
+    <view class='picker {{ errors[key] ? "error" : "" }}'>{{ value ? value : 'Please Choose' }}</view>
+  </picker>
+</template>
