@@ -1,4 +1,4 @@
-// pages/subs_option_model/subs_option_model.js
+// pages/checkout_success/checkout_success.js
 Page({
 
   /**
@@ -12,7 +12,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    this.setData({
+      months: options.months,
+      total: options.total
+    });
   },
 
   /**

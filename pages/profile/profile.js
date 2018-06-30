@@ -1,4 +1,6 @@
-1// index.js
+1;
+
+// index.js
 // 获取应用实例
 const app = getApp();
 
@@ -16,28 +18,28 @@ Page({
     });
   },
 
-  postjob: function (e) {
+  postjob(e) {
     wx.navigateTo({
-      url: `/pages/addjob/addjob`,
-    })
+      url: '/pages/addjob/addjob',
+    });
   },
 
-  postedjobs: function (e) {
+  postedjobs(e) {
     wx.navigateTo({
-      url: `/pages/postedjobs/postedjobs`,
-    })
+      url: '/pages/postedjobs/postedjobs',
+    });
   },
 
-  personality: function (e) {
+  personality(e) {
     wx.navigateTo({
-      url: `/pages/userscore/userscore`,
-    })
+      url: '/pages/userscore/userscore',
+    });
   },
 
-  takequiz: function (e) {
+  takequiz(e) {
     wx.navigateTo({
-      url: `/pages/quiz/quiz`,
-    })
+      url: '/pages/quiz/quiz',
+    });
   },
 
   onLoad() {
