@@ -30,9 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-
 			"current": -1,
-
 			"list": [
 				{
 					"id": -1,
@@ -51,7 +49,12 @@
 					"name": "age",
 					"pathName": "pages/subs_option_age/subs_option_age",
 					"query": ""
-
+				},
+				{
+					"id": -1,
+					"name": "age",
+					"pathName": "pages/subs_option_model/subs_option_model",
+					"query": ""
 				}
 			]
 		}
