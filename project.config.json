@@ -90,7 +90,7 @@
           "id": -1,
 					"name": "checkout",
 					"pathName": "pages/checkout/checkout",
-					"query": ""
+					"query": "toy_id=50&months=3&total=199"
 				}
 			]
 		}

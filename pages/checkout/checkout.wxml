@@ -16,3 +16,19 @@
 <view wx:else>
   <text>Add New Address</text>
 </view>
+
+<view class="toy">
+  <image src="/assets/images/artbox.png"></image>
+
+  <view class="toy-detail">
+    <text>Art Box</text>
+    <text>{{ months }} Month Prepay</text>
+    <text>$ {{ total }}.00</text>
+  </view>
+</view>
+
+
+<view class="summary">
+  <text class="total">Total: $ {{ total }}.00</text>
+  <text class="pay">Pay</text>
+</view>

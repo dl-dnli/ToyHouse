@@ -15,11 +15,16 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    this.setData({
+      months: options.months,
+      total: options.total
+    });
+
     apiClient.get({
       path: '/addresses',
 
       success: (res) => {
-        console.log(res);
+        // console.log(res);
 
         this.setData({
           address: res.data.data[0]
