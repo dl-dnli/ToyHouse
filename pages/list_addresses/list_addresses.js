@@ -1,4 +1,6 @@
-// pages/design/design.js
+const apiClient = require('../../utils/apiClient.js');
+
+// pages/list_addresses/list_addresses.js
 Page({
 
   /**
@@ -12,7 +14,16 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    apiClient.get({
+      path: '/addresses',
+      success: (res) => {
+        console.log(res)
 
+        this.setData({
+          addresses: res.data.data
+        })
+      }
+    });
   },
 
   /**

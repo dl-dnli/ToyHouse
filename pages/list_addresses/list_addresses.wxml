@@ -1,0 +1,4 @@
+<!--pages/list_addresses/list_addresses.wxml-->
+<view wx:for="{{ addresses }}" wx:key="{{ item.id }}">
+  <text>{{ item.detail }}</text>
+</view>

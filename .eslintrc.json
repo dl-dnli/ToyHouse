@@ -1,0 +1,30 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "rules": {
+        "comma-dangle": "off",
+        "no-console": "off",
+        "no-param-reassign": ["error", { "props": false }],
+        "arrow-body-style": "off",
+        "no-mixed-operators": "off"
+    },
+    "globals": {
+        "Page": false,
+        "wx": false,
+        "getApp": false,
+        "App": false,
+        "Component": false,
+        "Behavior": false
+    }
+}
