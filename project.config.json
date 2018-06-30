@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 10,
 			"list": [
 				{
 					"id": -1,
@@ -76,9 +76,33 @@
 				},
 				{
 					"id": -1,
-					"name": "history",
+					"name": "profile",
 					"pathName": "pages/profile/profile",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "design",
+					"pathName": "pages/design/design",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "description ",
+					"pathName": "pages/description/description ",
+					"query": ""
+				},
+        {
+          "id": -1,
+					"name": "checkout",
+					"pathName": "pages/checkout/checkout",
+					"query": "toy_id=50&months=3&total=199"
+				},
+				{
+					"id": 6,
+					"name": "checkout success",
+					"pathName": "pages/checkout_success/checkout_success",
+					"query": "toy_id=50&months=3&total=199"
 				}
 			]
 		}

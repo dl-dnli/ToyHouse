@@ -1,4 +1,4 @@
-// pages/subs_option_age/subs_option_age.js
+// pages/checkout_success/checkout_success.js
 Page({
 
   /**
@@ -8,21 +8,15 @@ Page({
 
   },
 
-  chooseAge: function(e) {
-    var tag = e.currentTarget.id
-    
-    wx.navigateTo({
-      url:  `/pages/toys/toys?tags=${tag}`
-    })
-  },
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    this.setData({
+      months: options.months,
+      total: options.total
+    });
   },
-
 
   /**
    * 生命周期函数--监听页面初次渲染完成

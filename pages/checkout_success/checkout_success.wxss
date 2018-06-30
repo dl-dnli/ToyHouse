@@ -1,0 +1,49 @@
+/* pages/checkout_success/checkout_success.wxss */
+
+page {
+  font-size: 32rpx;
+}
+
+.success {
+  display: flex;
+  border-bottom: 2rpx solid #C4C4C4;
+}
+
+.success image {
+  width: 154rpx;
+  height: 154rpx;
+  margin: 86rpx 78rpx 0 100rpx;
+}
+
+.success > view {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 116rpx 0 102rpx;
+}
+
+.toy {
+  display: flex;
+}
+
+.toy image {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 86rpx;
+}
+
+.toy-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 62rpx 0;
+}
+
+.delivery {
+  border-bottom: 2rpx solid #C4C4C4;
+  padding: 0 60rpx;
+}
+
+.delivery button {
+  margin: 40rpx 120rpx;
+}

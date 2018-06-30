@@ -1,0 +1,83 @@
+/* pages/checkout/checkout.wxss */
+
+.address {
+  display: flex;
+  padding: 36rpx;
+  font-size: 32rpx;
+  border-bottom: 2rpx solid #C4C4C4;
+}
+
+.recipient {
+  margin-right: 50rpx;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.address > .meta {
+  display: flex;
+  align-items: center;
+}
+
+.address image {
+  width: 38rpx;
+  height: 16rpx;
+}
+
+.toy {
+  display: flex;
+  border-bottom: 2rpx solid #C4C4C4;
+}
+
+.toy image {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 38rpx;
+}
+
+.toy-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 38rpx 0;
+}
+
+.summary {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  border-top: 2rpx solid #C4C4C4;
+}
+
+.total {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 38rpx;
+}
+
+.pay {
+  background-color: #F2C94C;
+  width: 236rpx;
+  height: 106rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.new-address {
+  font-family: 'Lato';
+}
+
+.toy-detail{
+  font-family: 'Lato';
+}
+
+.summary {
+  font-family: 'Lato';
+}

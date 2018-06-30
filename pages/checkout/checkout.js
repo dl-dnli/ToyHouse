@@ -1,30 +1,49 @@
-// pages/subs_option_gender/subs_option_gender.js
+// pages/checkout/checkout.js
+
+const apiClient = require('../../utils/apiClient.js');
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    address: null
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    this.setData({
+      months: options.months,
+      total: options.total
+    });
 
-  },
-  onGenderGirl(e) {
-    // gender = "girl",
-    wx.navigateTo({
-      url: '/pages/subs_option_age/subs_option_age',
+    apiClient.get({
+      path: '/addresses',
+
+      success: (res) => {
+        // console.log(res);
+
+        if (res.data.data.length > 0) {
+          this.setData({
+            address: res.data.data[0]
+          });
+        }
+      }
     });
   },
 
-  onGenderBoy(e) {
-    // gender = "girl",
+  addNewAddress() {
     wx.navigateTo({
-      url: '/pages/subs_option_age/subs_option_age',
+      url: '../new_address/new_address',
+    });
+  },
+
+  listAddresses() {
+    wx.navigateTo({
+      url: '../list_addresses/list_addresses',
     });
   },
 
@@ -75,5 +94,11 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  pay() {
+    wx.navigateTo({
+      url: `../checkout_success/checkout_success?months=${this.data.months}&total=${this.data.total}`,
+    });
   }
 });
