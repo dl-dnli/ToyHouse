@@ -81,5 +81,11 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  pay() {
+    wx.navigateTo({
+      url: `../checkout_success/checkout_success?months=${this.data.months}&total=${this.data.total}`,
+    });
   }
 });

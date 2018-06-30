@@ -30,5 +30,5 @@
 
 <view class="summary">
   <text class="total">Total: $ {{ total }}.00</text>
-  <text class="pay">Pay</text>
+  <text bindtap='pay' class="pay">Pay</text>
 </view>
