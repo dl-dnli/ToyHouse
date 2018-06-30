@@ -27,20 +27,20 @@
       {
         "pagePath": "pages/index/index",
         "iconPath": "image/homepage.png",
-        "selectedIconPath": "image/homepage.png",
-        "text": "Homepage"
+        "selectedIconPath": "image/homepage1.png",
+        "text": ""
       },
       {
         "pagePath": "pages/design/design",
-        "iconPath": "image/design.png",
-        "selectedIconPath": "image/design.png",
-        "text": "Design"
+        "iconPath": "image/list.png",
+        "selectedIconPath": "image/list1.png",
+        "text": ""
       },
       {
         "pagePath": "pages/profile/profile",
         "iconPath": "image/me.png",
-        "selectedIconPath": "image/me.png",
-        "text": "Me"
+        "selectedIconPath": "image/me1.png",
+        "text": ""
       }
     ]
   }
