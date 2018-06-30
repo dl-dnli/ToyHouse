@@ -17,7 +17,11 @@ Page({
     apiClient.get({
       path: '/addresses',
       success: (res) => {
-        console.log(res);
+        console.log(res)
+
+        this.setData({
+          addresses: res.data.data
+        })
       }
     });
   },
