@@ -1,0 +1,30 @@
+<!--pages/subs_option_age/subs_option_age.wxml-->
+<view class="container">
+  <view class="age-title">How old is he/she?</view>
+  <view class="age-group">
+    <view class="card top-left">
+      <view class="card-description">
+        <image src='/image/duck.svg' class="age-pic"></image>
+        <view class="age">0-3 Year Olds</view>
+      </view>
+    </view>
+    <view class="card top-right">
+      <view class="card-description">
+        <image src='/image/kite.svg' class="age-pic"></image>
+        <view class="age">3-7 Year Olds</view>
+      </view>
+    </view>
+    <view class="card bottom-left">
+      <view class="card-description">
+        <image src='/image/robot.svg' class="age-pic"></image>
+        <view class="age">7-10 Year Olds</view>
+      </view>
+    </view>
+    <view class="card bottom-right">
+      <view class="card-description">
+        <image src='/image/coding.svg' class="age-pic"></image>
+        <view class="age">> 10 Year Olds</view>
+      </view>
+    </view>
+  </view>
+</view>
