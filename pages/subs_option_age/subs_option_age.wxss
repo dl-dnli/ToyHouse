@@ -1,0 +1,67 @@
+/* pages/subs_option_age/subs_option_age.wxss */
+.age-group {
+  display: flex;
+  position: relative;
+  width: 85%;
+  height: 53vh;
+}
+
+.age-title {
+  font-family: 'Lato';
+  font-size: 50rpx;
+  margin: 50rpx;
+}
+
+.card {
+  height: 275rpx;
+  width: 275rpx;
+  /* background-size: cover;
+  background-position: center; */
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rpx;
+  margin: 20rpx;
+}
+
+.card-description {
+  font-family: 'Lato';
+  font-weight: bold;
+  text-align: center;
+}
+
+.age-pic {
+  width: 160rpx;
+  height: 130rpx;
+  margin: 40rpx;
+}
+
+.age {
+  color: #404040;
+  font-size: 30rpx;
+}
+
+.top-left {
+  position: absolute;
+  left: 10rpx;
+  top: 10rpx;
+}
+
+.top-right {
+  position: absolute;
+  right: 10rpx;
+  top: 10rpx;
+}
+
+.bottom-left {
+  position: absolute;
+  left: 10rpx;
+  bottom: 10rpx;  
+}
+
+.bottom-right {
+  position: absolute;
+  right: 10rpx;
+  bottom: 10rpx;
+}

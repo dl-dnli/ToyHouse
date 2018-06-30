@@ -4,7 +4,11 @@
     "pages/logs/logs",
     "pages/design/design",
     "pages/profile/profile",
-    "pages/list_addresses/list_addresses"
+    "pages/list_addresses/list_addresses",
+    "pages/subs_option_gender/subs_option_gender",
+    "pages/subs_option_age/subs_option_age",
+    "pages/subs_option_box/subs_option_box",
+    "pages/subs_option_model/subs_option_model"
   ],
   "window": {
     "backgroundTextStyle": "light",

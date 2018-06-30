@@ -30,13 +30,28 @@
 			"list": []
 		},
 		"miniprogram": {
+
 			"current": -1,
+
 			"list": [
 				{
 					"id": -1,
 					"name": "List Addresses",
 					"pathName": "pages/list_addresses/list_addresses",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "gender",
+					"pathName": "pages/subs_option_gender/subs_option_gender",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "age",
+					"pathName": "pages/subs_option_age/subs_option_age",
+					"query": ""
+
 				}
 			]
 		}

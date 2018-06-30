@@ -1,0 +1,24 @@
+/* pages/subs_option_gender/subs_option_gender.wxss */
+.container {
+  background-color: #e8e8e8;
+}
+
+.gender-title {
+  font-family: 'Lato';
+  font-size: 50rpx;
+  font-weight: light;
+  margin: 50rpx;
+  color: #404040;
+}
+
+.gender-circle {
+  background: white;
+  padding: 80rpx;
+  border-radius: 50%;
+  margin-bottom: 70rpx;
+}
+
+.gender-pic {
+  width: 200rpx;
+  height: 200rpx;
+}
