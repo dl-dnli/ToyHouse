@@ -9,11 +9,10 @@ Page({
   data: {
 
   },
-  register: function(e){
+  register(e) {
     wx.navigateTo({
-      url:  `/pages/subs_option_gender/subs_option_gender`,
-    })
-    
+      url: '/pages/subs_option_gender/subs_option_gender',
+    });
   },
   /**
    * 生命周期函数--监听页面加载
@@ -123,5 +122,4 @@ Page({
 //     });
 //   }
 // });
-
 
