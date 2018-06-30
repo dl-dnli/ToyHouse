@@ -1,4 +1,7 @@
-// pages/subs_option_model/subs_option_model.js
+// pages/checkout/checkout.js
+
+const apiClient = require('../../utils/apiClient.js');
+
 Page({
 
   /**
@@ -12,7 +15,23 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    this.setData({
+      months: options.months,
+      total: options.total
+    });
 
+    apiClient.get({
+      path: '/addresses',
+
+      success: (res) => {
+        // console.log(res);
+
+        this.setData({
+          address: res.data.data[0]
+          // address: [][0]
+        });
+      }
+    });
   },
 
   /**
@@ -62,5 +81,11 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  pay() {
+    wx.navigateTo({
+      url: `../checkout_success/checkout_success?months=${this.data.months}&total=${this.data.total}`,
+    });
   }
 });

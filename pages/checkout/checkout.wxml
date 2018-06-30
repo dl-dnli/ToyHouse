@@ -1,0 +1,34 @@
+<!--pages/checkout/checkout.wxml-->
+
+<view class="address" wx:if="{{ address }}">
+  <text class="recipient">{{ address.recipient }}</text>
+
+  <view class="detail">
+    <text>{{ address.mobile }}</text>
+    <text>{{ address.detail }}</text>
+  </view>
+
+  <view class="meta">
+    <image src="/assets/images/Arrow.png"></image>
+  </view>
+</view>
+
+<view wx:else>
+  <text>Add New Address</text>
+</view>
+
+<view class="toy">
+  <image src="/assets/images/artbox.png"></image>
+
+  <view class="toy-detail">
+    <text>Art Box</text>
+    <text>{{ months }} Month Prepay</text>
+    <text>$ {{ total }}.00</text>
+  </view>
+</view>
+
+
+<view class="summary">
+  <text class="total">Total: $ {{ total }}.00</text>
+  <text bindtap='pay' class="pay">Pay</text>
+</view>
