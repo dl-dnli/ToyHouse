@@ -2,24 +2,47 @@
 .logo{
   display: flex;
   justify-content: center;
+  width: 500rpx;
+  height: 380rpx;
 }
 
 .title{
   font-size: 50rpx;
   text-align: center;
+  font-family: 'Lato';
+}
+
+.steps-section {
+  margin: 20rpx;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.steps-details {
+  align-items: left;
+}
+
+.steps-container {
+  background-color: #F8F8F8;
+  padding: 60rpx;
 }
 
 .submit-btn {
   display: flex;
   justify-content: center;
   /* flex-direction: column; */
-  background-color: #F4F4F4;
-  padding: 20rpx 50rpx;
+  background-color: #F5C253;
+  padding: 25rpx 40rpx;
   border: 5rpx solid white; 
   border-radius: 20rpx;
   animation: wiggle 2.5s infinite; 
   text-align: center;
   margin: 0 50rpx;
+}
+
+.submit-text {
+  font-family: 'Lato'
 }
 
 @keyframes wiggle {
@@ -47,4 +70,18 @@
     /* box-shadow:  inset -7px 0 5px 0 rgba(0,0,0,.1);  */
     transform: rotate(0deg);
   }
+}
+
+
+.steps-details {
+  font-family: 'Lato';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps-pic {
+  width: 70rpx;
+  height: 70rpx;
+  margin: 20rpx;
 }

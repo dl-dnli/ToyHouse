@@ -21,18 +21,36 @@
     </view>
   </view> -->
 <!-- </view> --> 
+<view class="container">
 <view class="logo">
-<image src="/image/logo.png"></image>
+  <image src="/image/logo.png"></image>
 </view>
-<view class="title">
-<text>How We Work?</text>
-</view>
-<view class= "logo">
-<image src="/image/placeholder.png"></image>
-</view>
-
- <view class="submit-btn" bindtap='register'>
-  <!-- <image id="submit-img" src="/image/submit.png"></image> -->
-  <text id="submit-text">Join Us Now !!!</text>
+<view class="steps-container">
+  <view class="title">
+    <text>How it Works</text>
   </view>
+  <view class="steps-section">
+    <view class="steps-details">
+      <image src="/image/choose.svg" class="steps-pic"></image>
+      <view class="step-description">Choose what fits you</view>
+    </view>
 
+    <view class="steps-details">
+      <image src="/image/puzzle.svg" class="steps-pic"></image>
+      <view class="step-description">Enjoy the toys</view>
+    </view>
+
+    <view class="steps-details">
+      <image src="/image/recycle.svg" class="steps-pic"></image>
+      <view class="step-description">Keep what you like</view>
+    </view>
+  </view>
+   <view class="submit-btn" bindtap='register'>
+  <!-- <image id="submit-img" src="/image/submit.png"></image> -->
+    <text class="submit-text">Join Us Now!!</text>
+ </view>
+</view>
+  <!-- <image src="/image/placeholder.png"></image> -->
+
+
+</view>
