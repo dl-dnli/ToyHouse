@@ -1,5 +1,19 @@
+const apiClient = require('./utils/apiClient.js');
+
 //app.js
 App({
+  login: function(code) {
+    apiClient.post({
+      path: '/wechat/auth',
+      data: {
+        code: code
+      },
+      success: (res) => {
+        console.log(res)
+        wx.setStorageSync('authToken', res.data.data.authentication_token)
+      }
+    })
+  },
   onLaunch: function () {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
@@ -9,7 +23,8 @@ App({
     // 登录
     wx.login({
       success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        // 发送 res.code 到后台换取 openId, sessionKey, unionIdfun
+        this.login(res.code);
       }
     })
     // 获取用户信息
