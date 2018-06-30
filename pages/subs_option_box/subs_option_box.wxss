@@ -4,12 +4,31 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
-.image{
-margin: 30rpx
+
+.toy-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20rpx;
+  flex-direction: column;
+}
+
+.image {
+  width: 600rpx;
+  height: 500rpx;
+}
+
+.toy-box-description {
+  font-family: 'Lato';
+  background-color: #F5C253;
+  width: 100%;
+  text-align: center;
+  padding: 20rpx 0;
 }
 
 .h3{
-font-size: 40rpx;
-text-align: center;
-font-family: "Lato";
+  font-size: 40rpx;
+  text-align: center;
+  font-family: "Lato";
+  margin: 20rpx;
 }

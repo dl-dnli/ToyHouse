@@ -1,5 +1,5 @@
 <!--pages/list_addresses/list_addresses.wxml-->
-
+<view class="container">
 <view class="addresses">
   <view wx:for="{{ addresses }}" wx:key="{{ item.id }}" class="address">
     <view>
@@ -13,5 +13,7 @@
 </view>
 
 <view class="new-address" bindtap='addNewAddress'>
-  <text>添加新地址</text>
+  <text>+ Create New Address</text>
+</view>
+
 </view>
