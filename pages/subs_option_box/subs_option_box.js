@@ -8,9 +8,11 @@ Page({
 
   },
 
-  checkout() {
+  checkout(e) {
+    console.log(e);
+
     wx.navigateTo({
-      url: '../checkout/checkout?months=6&total=199',
+      url: `../checkout/checkout?months=6&total=199&box=${e.currentTarget.dataset.box}`,
     });
   },
 

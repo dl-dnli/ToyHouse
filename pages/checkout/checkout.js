@@ -47,6 +47,7 @@ Page({
    */
   onLoad(options) {
     this.setData({
+      box: options.box,
       subscriptionDescriptions: this.data.subscriptionOptions.map(o => `${o.months} months, ￥${o.total}`)
     });
 

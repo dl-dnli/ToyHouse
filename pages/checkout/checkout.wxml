@@ -21,7 +21,7 @@
   <image src="/assets/images/artbox.png"></image>
 
   <view  class="toy-detail">
-    <text>Art Box</text>
+    <text>{{ box }}</text>
   
     <picker bindchange='changeDuration' value="{{1}}" range="{{ subscriptionDescriptions }}">
       <view class="picker">

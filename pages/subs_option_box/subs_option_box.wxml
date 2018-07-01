@@ -2,17 +2,17 @@
 <view class= 'h3'>Choose A Box</view>
 
 <view class = "image-row">
-  <view bindtap='checkout' class="toy-card">
+  <view bindtap='checkout' data-box="Science Box" class="toy-card">
     <image class="image" src='/image/science_box.jpg'></image>
     <view class="toy-box-description">Science Box</view>
   </view>
 
-  <view bindtap='checkout' class="toy-card">
+  <view bindtap='checkout' data-box="Art Box" class="toy-card">
     <image class="image" src='/image/science_box.jpg'></image>
     <view class="toy-box-description">Art Box</view>
   </view>
 
-  <view bindtap='checkout' class="toy-card">
+  <view bindtap='checkout' data-box="Lego Box" class="toy-card">
     <image class="image" src='/image/science_box.jpg'></image>
     <view class="toy-box-description">Lego Box</view>
   </view>
