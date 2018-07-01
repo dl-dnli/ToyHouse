@@ -1,6 +1,6 @@
 <!--pages/subs_option_gender/subs_option_gender.wxml-->
 <view class="container">
-  <view class="gender-title"> SELECT
+  <view class="gender-title"> Is it for your boy or girl?
   </view>
   <view class="gender-circle">
     <image src='/image/girl.svg' class="gender-pic" bindtap='onGenderGirl'></image>
