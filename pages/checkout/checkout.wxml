@@ -1,5 +1,5 @@
 <!--pages/checkout/checkout.wxml-->
-
+<view class="container">
 <view bindtap='listAddresses' class="address" wx:if="{{ address }}">
   <text class="recipient">{{ address.recipient }}</text>
 
@@ -31,4 +31,6 @@
 <view class="summary">
   <text class="total">Total: $ {{ total }}.00</text>
   <text bindtap='pay' class="pay">Pay</text>
+</view>
+
 </view>
