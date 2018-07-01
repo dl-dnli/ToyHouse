@@ -14,7 +14,7 @@
 .box{
   display: flex;
   align-items: center;
-  border: 5rpx solid #F5C253;
+  border: 3rpx solid #F5C253;
   margin: 20rpx 20rpx 20rpx 20rpx; 
   width: 300rpx;
   height:300rpx;
