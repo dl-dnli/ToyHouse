@@ -1,28 +1,37 @@
 /* pages/subs_option_age/subs_option_age.wxss */
+page {
+  background-color: #F5C253;
+}
+
+.container {
+  background-color: #F5C253;
+}
+
 .age-group {
   display: flex;
-  position: relative;
   width: 85%;
-  height: 53vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .age-title {
   font-family: 'Lato';
   font-size: 50rpx;
-  margin: 50rpx;
+  margin: 30rpx;
 }
 
 .card {
-  height: 275rpx;
-  width: 275rpx;
+  height: 300rpx;
+  width: 60%;
   /* background-size: cover;
   background-position: center; */
-  background-color: #F8F8F8;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20rpx;
-  margin: 20rpx;
+  margin: 15rpx;
 }
 
 .card-description {
@@ -42,7 +51,7 @@
   font-size: 30rpx;
 }
 
-.top-left {
+/* .top-left {
   position: absolute;
   left: 10rpx;
   top: 10rpx;
@@ -64,4 +73,4 @@
   position: absolute;
   right: 10rpx;
   bottom: 10rpx;
-}
+} */

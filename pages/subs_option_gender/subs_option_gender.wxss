@@ -1,6 +1,6 @@
 /* pages/subs_option_gender/subs_option_gender.wxss */
-.container {
-  background-color: #e8e8e8;
+page {
+  background-color: #F5C253;
 }
 
 .gender-title {

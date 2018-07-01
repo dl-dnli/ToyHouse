@@ -1,4 +1,8 @@
 /* pages/subs_option_box/subs_option_box.wxss */
+page {
+  background-color: #F5C253;
+}
+
 .image-row{
 display: flex;
 flex-direction: column;
@@ -14,21 +18,25 @@ align-items: center;
 }
 
 .image {
-  width: 600rpx;
-  height: 500rpx;
+  width: 550rpx;
+  height: 450rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
 }
 
 .toy-box-description {
   font-family: 'Lato';
-  background-color: #F5C253;
+  background-color: white;
   width: 100%;
   text-align: center;
   padding: 20rpx 0;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
 }
 
 .h3{
   font-size: 40rpx;
   text-align: center;
   font-family: "Lato";
-  margin: 20rpx;
+  margin: 40rpx;
 }
