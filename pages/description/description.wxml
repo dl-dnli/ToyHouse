@@ -9,21 +9,21 @@
     Art Box
   </view>
     <view class ="h5">
-   Ended September 29, 2017
+   <!-- Ended September 29, 2017 -->
   </view>
 </view>
 
 <view class = "first">
 <view class = "second">
-  <view>Start Date</view>
-  <view>Subscription Model</view>
-  <view>Subscription Price</view>
-  <view>Dscription</view>
+  <!-- <view>Start Date</view> -->
+   <view>Category</view> 
+   <view>Target Group</view> 
+  <view>Description</view>
 </view>
 <view class = "second">
-  <view>June 30, 2017</view>
-  <view>3 Month Prepay</view>
-  <view>¥199</view>
-  <view>Lead Free, Biodegradable</view>
+  <!-- <view>June 30, 2017</view> -->
+   <view> Art, Science</view> 
+   <view> 3-7 Year Olds </view> 
+  <view>Lead Free, Biodegradable Toy</view>
 </view>
 </view>
