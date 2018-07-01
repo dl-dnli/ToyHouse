@@ -1,1 +1,42 @@
 /* pages/description/description.wxss */
+
+.top{
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  border-bottom: 3rpx solid #8A8A8A;
+}
+
+
+.h4{
+ font-family: "lato";
+ font-size: 34rpx;
+}
+
+
+.h5{
+ font-family: "lato";
+ font-size: 25rpx;
+ padding: 10rpx 10rpx 30rpx 10rpx;
+}
+
+.size{
+  width:450rpx;
+  height:300rpx;
+}
+
+.first{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.second{
+  display:flex;
+  flex-direction: column;
+  font-family: "lato";
+  font-size: 30rpx;
+  padding: 20rpx 20rpx 20rpx 20rpx;
+  margin: 30rpx;
+  line-height: 50rpx;
+}
