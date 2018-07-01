@@ -4,29 +4,29 @@
 </view>
 <view class = "bigparent">
 <view class = "boxparent">
-  <image class= "box" src= "/image/house.jpg" bindtap='clickToPage'>
+  <image mode='aspectFill' class= "box" src= "/image/house.jpg" bindtap='clickToPage'>
   </image>
-   <image bindtap= "tap" class = "box" src= "/image/toy_description.png">
+   <image bindtap="tap" mode='aspectFill' class = "box" src= "/image/toy_description.png">
   </image>
 </view>
 <view class = "boxparent">
-  <image class = "box" src= "/image/th (1).jpeg">
+  <image mode='aspectFill' class = "box" src= "/image/th (1).jpeg">
   </image>
-   <image class = "box" src= "/image/71-RQgWJxzL._SL1500_.jpg">
-  </image>
-</view>
-
-<view class = "boxparent">
-   <image class = "box" src= "/image/th.jpeg">
-  </image>
-     <image class = "box" src= "/image/download.jpeg">
+   <image mode='aspectFill' class = "box" src= "/image/71-RQgWJxzL._SL1500_.jpg">
   </image>
 </view>
 
 <view class = "boxparent">
-   <image class = "box" src= "/image/photo-1526030346330-247f8e93028f (2).jpeg">
+   <image mode='aspectFill' class = "box" src= "/image/th.jpeg">
   </image>
-     <image class = "box" src= "/image/download.jpeg">
+     <image mode='aspectFill' class = "box" src= "/image/download.jpeg">
+  </image>
+</view>
+
+<view class = "boxparent">
+   <image mode='aspectFill' class = "box" src= "/image/photo-1526030346330-247f8e93028f (2).jpeg">
+  </image>
+     <image mode='aspectFill' class = "box" src= "/image/download.jpeg">
   </image>
 </view>
 
