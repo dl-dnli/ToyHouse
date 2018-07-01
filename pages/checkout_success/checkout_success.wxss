@@ -44,6 +44,14 @@ page {
   padding: 0 60rpx;
 }
 
-.delivery button {
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  background-color: #F5C253;
+  padding: 25rpx 40rpx;
+  border: 5rpx solid white;
+  border-radius: 20rpx;
+  text-align: center;
   margin: 40rpx 120rpx;
 }
