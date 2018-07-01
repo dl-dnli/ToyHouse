@@ -6,7 +6,7 @@
 <view class = "boxparent">
   <image mode='aspectFill' class= "box" src= "/image/house.jpg" bindtap='clickToPage'>
   </image>
-   <image mode='aspectFill' class = "box" src= "/image/toy_description.png">
+   <image bindtap="tap" mode='aspectFill' class = "box" src= "/image/toy_description.png">
   </image>
 </view>
 <view class = "boxparent">
