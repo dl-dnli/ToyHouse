@@ -30,9 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-
-			"current": 8,
-
+			"current": 5,
 			"list": [
 				{
 					"id": -1,
@@ -54,7 +52,7 @@
 				},
 				{
 					"id": -1,
-					"name": "age",
+					"name": "model",
 					"pathName": "pages/subs_option_model/subs_option_model",
 					"query": ""
 				},
@@ -95,10 +93,10 @@
 					"query": ""
 				},
 				{
-					"id": -1,
+					"id": 10,
 					"name": "checkout",
 					"pathName": "pages/checkout/checkout",
-					"query": "toy_id=50&months=3&total=199"
+					"query": "toy_id=50&months=3&total=199&box=Art Box"
 				},
 				{
 					"id": 6,

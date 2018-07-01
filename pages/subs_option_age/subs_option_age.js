@@ -8,12 +8,12 @@ Page({
 
   },
 
-  chooseAge: function(e) {
-    var tag = e.currentTarget.id
-    
+  chooseAge(e) {
+    const tag = e.currentTarget.id;
+
     wx.navigateTo({
-      url:  `/pages/toys/toys?tags=${tag}`
-    })
+      url: '/pages/subs_option_box/subs_option_box'
+    });
   },
 
   /**

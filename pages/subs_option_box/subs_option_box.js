@@ -8,6 +8,14 @@ Page({
 
   },
 
+  checkout(e) {
+    console.log(e);
+
+    wx.navigateTo({
+      url: `../checkout/checkout?months=6&total=199&box=${e.currentTarget.dataset.box}`,
+    });
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -15,7 +15,7 @@
   <view class="toy-detail">
     <text>Art Box</text>
     <text>{{ months }} Month Prepay</text>
-    <text>$ {{ total }}.00</text>
+    <text>￥ {{ total }}.00</text>
   </view>
 </view>
 
