@@ -21,7 +21,10 @@
 
 <view class="delivery">
   <text>Your first box is expected to arrive by July 7, 2018</text>
-  <button>Track Order</button>
+
+  <view class="submit-btn">
+    <text class="submit-text">Track Order</text>
+  </view>
 </view>
 
 

@@ -39,7 +39,7 @@ Page({
     this.setData({
       months: this.data.subscriptionOptions[this.data.defaultSubscription].months,
       total: this.data.subscriptionOptions[this.data.defaultSubscription].total,
-    })
+    });
   },
 
   /**
