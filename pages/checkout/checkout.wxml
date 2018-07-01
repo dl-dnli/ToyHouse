@@ -20,10 +20,15 @@
 <view class="toy">
   <image src="/assets/images/artbox.png"></image>
 
-  <view class="toy-detail">
+  <view  class="toy-detail">
     <text>Art Box</text>
-    <text>{{ months }} Month Prepay (Change)</text>
-    <text>￥ {{ total }}.00</text>
+  
+    <picker bindchange='changeDuration' value="{{1}}" range="{{ subscriptionDescriptions }}">
+      <view class="picker">
+        <text>{{ months }} Month Prepay (Change)</text>
+        <text>￥ {{ total }}.00</text>
+      </view>
+    </picker>
   </view>
 </view>
 

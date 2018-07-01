@@ -8,7 +8,38 @@ Page({
    * 页面的初始数据
    */
   data: {
-    address: null
+    address: null,
+    defaultSubscription: 1,
+    subscriptionOptions: [
+      {
+        months: 3,
+        total: 199
+      },
+      {
+        months: 6,
+        total: 379
+      },
+      {
+        months: 12,
+        total: 599
+      },
+    ]
+  },
+
+  changeDuration(e) {
+    // console.log(e)
+    this.setData({
+      defaultSubscription: parseInt(e.detail.value)
+    });
+
+    this.updateSelection();
+  },
+
+  updateSelection() {
+    this.setData({
+      months: this.data.subscriptionOptions[this.data.defaultSubscription].months,
+      total: this.data.subscriptionOptions[this.data.defaultSubscription].total,
+    })
   },
 
   /**
@@ -16,9 +47,10 @@ Page({
    */
   onLoad(options) {
     this.setData({
-      months: options.months,
-      total: options.total
+      subscriptionDescriptions: this.data.subscriptionOptions.map(o => `${o.months} months, ￥${o.total}`)
     });
+
+    this.updateSelection();
 
     apiClient.get({
       path: '/addresses',

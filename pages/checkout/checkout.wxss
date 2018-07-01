@@ -91,6 +91,11 @@
   font-family: 'Lato';
 }
 
+.picker {
+  display: flex;
+  flex-direction: column;
+}
+
 .summary {
   font-family: 'Lato';
 }
