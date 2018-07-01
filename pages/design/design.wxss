@@ -1,4 +1,11 @@
 /* pages/design/design.wxss */
+.h3{
+  display: flex;
+  font-family: "lato";
+  font-size: 50rpx;
+  justify-content: center;
+  margin-bottom: 20rpx;
+}
 .boxparent{
   /* margin: 0rpx 20rpx 0rpx 20rpx; */
   display: flex;
