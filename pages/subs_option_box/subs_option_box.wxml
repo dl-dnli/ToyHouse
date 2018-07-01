@@ -8,12 +8,12 @@
   </view>
 
   <view bindtap='checkout' data-box="Art Box" class="toy-card">
-    <image class="image" src='/image/science_box.jpg'></image>
+    <image class="image" src='/image/art.jpg'></image>
     <view class="toy-box-description">Art Box</view>
   </view>
 
   <view bindtap='checkout' data-box="Lego Box" class="toy-card">
-    <image class="image" src='/image/science_box.jpg'></image>
+    <image class="image" src='/image/lego.jpg'></image>
     <view class="toy-box-description">Lego Box</view>
   </view>
 </view>
