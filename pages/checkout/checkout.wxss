@@ -1,4 +1,14 @@
 /* pages/checkout/checkout.wxss */
+.new-address {
+  margin: 30rpx;
+  padding: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5C253;
+  border-radius: 20rpx;
+  width: 50%;
+}
 
 .address {
   display: flex;
@@ -30,6 +40,9 @@
 .toy {
   display: flex;
   border-bottom: 2rpx solid #C4C4C4;
+  width: 100%;
+  margin: 40rpx;
+  justify-content: space-around;
 }
 
 .toy image {
@@ -61,7 +74,7 @@
 }
 
 .pay {
-  background-color: #F2C94C;
+  background-color: #F5C253;
   width: 236rpx;
   height: 106rpx;
   display: flex;
