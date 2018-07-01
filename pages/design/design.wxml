@@ -1,5 +1,7 @@
 <!--pages/design/design.wxml-->
-<text>List of Toys</text>
+<view class = "h3">
+<text >List of Toys</text>
+</view>
 <view class = "bigparent">
 <view class = "boxparent">
   <image class= "box" src= "/image/house.jpg" bindtap='clickToPage'>

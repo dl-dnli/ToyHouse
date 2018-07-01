@@ -30,7 +30,9 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 10,
+
+			"current": 8,
+
 			"list": [
 				{
 					"id": -1,
