@@ -18,7 +18,7 @@ page {
 .age-title {
   font-family: 'Lato';
   font-size: 50rpx;
-  margin: 30rpx;
+  margin: 40rpx;
 }
 
 .card {

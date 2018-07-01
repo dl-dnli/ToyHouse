@@ -35,7 +35,7 @@ align-items: center;
 }
 
 .h3{
-  font-size: 40rpx;
+  font-size: 50rpx;
   text-align: center;
   font-family: "Lato";
   margin: 40rpx;

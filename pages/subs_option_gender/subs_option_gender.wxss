@@ -7,7 +7,7 @@ page {
   font-family: 'Lato';
   font-size: 50rpx;
   font-weight: light;
-  margin: 50rpx;
+  margin: 100rpx;
   color: #404040;
 }
 
